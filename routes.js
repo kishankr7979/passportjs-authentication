@@ -45,7 +45,7 @@ const checkAuthenticated = function(req, res, next) {
 }
 
 
-mongoose.connect('mongodb+srv://KishanKumar:kishankr@firstproject.sgz9l.mongodb.net/newuserDb?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://KishanKumar:kishanmongo@firstproject.sgz9l.mongodb.net/newuserDb?retryWrites=true&w=majority', {
         useNewUrlParser: true,
         useUnifiedTopology: true,
         useCreateIndex: true,
